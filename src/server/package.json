@@ -1,0 +1,19 @@
+{
+  "name": "jimfree-websocket-server",
+  "version": "1.0.0",
+  "description": "짐프리 앱 웹소켓 서버",
+  "main": "websocket-server.js",
+  "scripts": {
+    "start": "node websocket-server.js",
+    "dev": "nodemon websocket-server.js"
+  },
+  "keywords": ["websocket", "jimfree"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
